@@ -11,6 +11,9 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
     accessToken: API_KEY
 });
 
+// Then we add our streets title layer to the map.
+streets.addTo(map);
+
 // Accessing the airport GeoJSON URL
 let airportData = "https://raw.githubusercontent.com/azkatieb/Mapping_Earthquakes/main/majorAirports.json";
 
